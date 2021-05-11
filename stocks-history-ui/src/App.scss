@@ -1,0 +1,21 @@
+.app-container {
+  position: relative;
+  height: 100vh;
+}
+.main {
+  margin-top: 16px;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #24344d;
+  img {
+    width: 24px;
+  }
+
+  .nav-link.active,
+  .nav-link:hover {
+    background-color: transparent;
+    border: 0.5px solid;
+    border-bottom: 0;
+  }
+}

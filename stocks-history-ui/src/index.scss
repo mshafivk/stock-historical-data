@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;1,300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #131c29;
+  color: #ecf0f1;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-rendering: optimizeLegibility; /**Render font in perfect way*/
+  scroll-behavior: smooth; /*For smooth scrolling*/
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ecf0f1;
+  font-size: 240%; /*Relative to html rule's font-size*/
+  word-spacing: 4px;
+}
+
+h2 {
+  font-size: 140%;
+  word-spacing: 2px;
+  text-align: center;
+  // margin-bottom: 38px;
+  color: #ecf0f1;
+}
+
+h3 {
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+.row {
+  margin: 4px auto;
+}
+
+.form-control {
+  height: 40px;
+}
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.btn {
+  line-height: 1rem;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+button[type="button"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(255, 97, 34, 0.8);
+  box-shadow: none;
+  outline: 0 none;
+}

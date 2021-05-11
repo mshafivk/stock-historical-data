@@ -1,0 +1,58 @@
+[
+  {
+    "entity": "Apple Inc. (AAPL)",
+    "fileName": "AAPL.csv"
+  },
+  {
+    "entity": "AMC Entertainment Holdings, Inc. (AMC)",
+    "fileName": "AMC.csv"
+  },
+  {
+    "entity": "ARK Innovation ETF (ARKK)",
+    "fileName": "ARKK.csv"
+  },
+  {
+    "entity": "BlackBerry Limited (BB)",
+    "fileName": "BB.csv"
+  },
+  {
+    "entity": "Breakwave Dry Bulk Shipping ETF (BDRY)",
+    "fileName": "BDRY.csv"
+  },
+  {
+    "entity": "Bilibili Inc. (BILI)",
+    "fileName": "BILI.csv"
+  },
+  {
+    "entity": "Chewy, Inc. (CHWY)",
+    "fileName": "CHWY.csv"
+  },
+  {
+    "entity": "SPDR Dow Jones Industrial Average ETF Trust (DIA)",
+    "fileName": "DIA.csv"
+  },
+  {
+    "entity": "Freeport-McMoRan Inc. (FCX)",
+    "fileName": "FCX.csv"
+  },
+  {
+    "entity": "GameStop Corp. (GME)",
+    "fileName": "GME.csv"
+  },
+  {
+    "entity": "iShares Russell 2000 ETF (IWM)",
+    "fileName": "IWM.csv"
+  },
+  {
+    "entity": "Microsoft Corporation (MSFT)",
+    "fileName": "MSFT.csv"
+  },
+  {
+    "entity": "Invesco QQQ Trust (QQQ)",
+    "fileName": "QQQ.csv"
+  },
+  {
+    "entity": "SPDR S&P 500 ETF Trust (SPY)",
+    "fileName": "SPY.csv"
+  }
+]
