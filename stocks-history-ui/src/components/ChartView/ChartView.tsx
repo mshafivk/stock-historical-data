@@ -9,6 +9,7 @@ import {
   Tooltip,
   Legend,
   Line,
+  Bar,
 } from "recharts";
 import "./chartView.scss";
 import { useAppContext } from "../../AppContext";
@@ -32,7 +33,6 @@ const ChartView: FunctionComponent<{}> = () => {
     [name, historicalData]
   );
 
-  console.log(chartData);
   return (
     <React.Fragment>
       <div className="row">
@@ -51,19 +51,19 @@ const ChartView: FunctionComponent<{}> = () => {
               bottom: 5,
             }}
           >
-            <CartesianGrid strokeDasharray="3 3" stroke="#ffb0b0" />
+            <CartesianGrid strokeDasharray="3 3" stroke="#906e6e" />
             <XAxis dataKey="date" />
-            <YAxis />
+            <YAxis dataKey="volume" />
             <Tooltip />
             <Legend />
-            <Area
+            <Line
               type="monotone"
               dataKey="volume"
-              fill="#8884d8"
               stroke="#8884d8"
+              dot={false}
             />
 
-            <Line type="monotone" dataKey="adj_close" stroke="#82ca9d" />
+            <Bar dataKey="adj_close" stroke="#e44048" scale={150} />
           </ComposedChart>
         </ResponsiveContainer>
       </div>
