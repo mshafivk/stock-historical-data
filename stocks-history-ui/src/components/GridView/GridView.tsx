@@ -17,32 +17,34 @@ const GridView: FunctionComponent<{}> = () => {
         <h2>{name}</h2>
       </div>
       <div className="ag-theme-alpine grid-container">
-        <AgGridReact rowData={historicalData} pagination={true}>
-          <AgGridColumn
-            field="date"
-            valueFormatter={dateValueFormatter}
-          ></AgGridColumn>
-          <AgGridColumn
-            field="open"
-            valueFormatter={numberFormatter}
-          ></AgGridColumn>
-          <AgGridColumn
-            field="low"
-            valueFormatter={numberFormatter}
-          ></AgGridColumn>
-          <AgGridColumn
-            field="high"
-            valueFormatter={numberFormatter}
-          ></AgGridColumn>
-          <AgGridColumn
-            field="close"
-            valueFormatter={numberFormatter}
-          ></AgGridColumn>
-          <AgGridColumn
-            field="adj_close"
-            valueFormatter={numberFormatter}
-          ></AgGridColumn>
-        </AgGridReact>
+        {historicalData && (
+          <AgGridReact rowData={historicalData} pagination={true}>
+            <AgGridColumn
+              field="date"
+              valueFormatter={dateValueFormatter}
+            ></AgGridColumn>
+            <AgGridColumn
+              field="open"
+              valueFormatter={numberFormatter}
+            ></AgGridColumn>
+            <AgGridColumn
+              field="low"
+              valueFormatter={numberFormatter}
+            ></AgGridColumn>
+            <AgGridColumn
+              field="high"
+              valueFormatter={numberFormatter}
+            ></AgGridColumn>
+            <AgGridColumn
+              field="close"
+              valueFormatter={numberFormatter}
+            ></AgGridColumn>
+            <AgGridColumn
+              field="adj_close"
+              valueFormatter={numberFormatter}
+            ></AgGridColumn>
+          </AgGridReact>
+        )}
       </div>
     </React.Fragment>
   );
